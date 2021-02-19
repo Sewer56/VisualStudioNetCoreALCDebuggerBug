@@ -1,5 +1,7 @@
 # Visual Studio Debugger Bug
 
+[Bug Report](https://developercommunity.visualstudio.com/content/problem/864954/vs2019-debugger-unable-to-select-correct-net-core.html)
+
 This repository hosts a simple reproduction for a specific bug I found while working on [Reloaded-II](https://github.com/Reloaded-Project/Reloaded-II) Mod Loader. The bug consists of AssemblyLoadContext(s) and Visual Studio debugger's inability of picking the correct module for the current ALC while debugging.
 
 ### The Bug: Summarized
